@@ -1,0 +1,221 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-image: url("img/fundo-b.png");
+    background-repeat: repeat;
+    }
+
+  /*Menu*/
+
+    header {
+    background: #62b761a8;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 10px 0px;
+        border-bottom: 1px solid rgb(104, 104, 104);
+}
+
+.link {
+    color: #3f3b3b;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px  0px ;
+    position: relative;
+    left: 13px;
+    top: 9px;
+    font-size: 25px;
+} 
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    bottom: 7px;
+    right: 5px;
+}
+
+ .link-top {
+       
+    color: #3f3b3b;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+
+a:hover {
+      color: #fff;
+    
+    }
+
+                    /*Corpo*/
+    
+    
+main {
+        margin-top: 68px;
+    }
+    
+    .im1 {
+background-image: url("img/img-fundo.jpg");
+height: 900px;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+
+    .im2 {
+        background: #62b761a8;
+        color: white;
+        font-size: 22px;
+        border: 1px solid white;
+        border-radius: 10px;
+        padding: 25px;
+    
+    }
+
+    .bemvindo {
+        display: flex;
+        justify-content: center;
+        height: 300px;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+        font-size: 20px;
+
+    }
+    
+
+    
+
+    /* Quartos */
+
+    .cont-pai {
+        display: flex;
+        justify-content: space-around;
+        margin: 0px 5px;
+        
+    }
+.quartos{
+padding: 0px 6px;
+}
+
+    .quartos img {
+        width: 445px;
+        height: 350px;
+        padding: 0px 2px;
+       
+    }
+
+    .quartos a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: rgb(48, 47, 47);
+        text-align: center;
+        
+    }
+    .quartos a p {
+        padding-bottom: 15px;
+        border-bottom: 1px solid rgb(39, 38, 38);
+    }
+
+
+    /*Rota*/
+ 
+    #rota {
+        display: flex;
+        justify-content: center;
+        height: 250px;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+        font-size: 20px;
+    }
+    /*Sobre*/
+
+   
+
+    #sobre {
+        display: flex;
+        justify-content: center;
+        height: 250px;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+        font-size: 20px;
+    }
+
+    .sobre-pai {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-bottom: 50px;
+
+    }
+
+    .sobres {
+        display: flex;
+        width: 45%;
+        margin: 0 10px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .descricao {
+        text-align: justify;
+    }
+      
+    .descricao-img {
+        width: 120px;
+  height: 113px;
+  object-fit: cover;
+  margin-left:10px;
+
+    }
+/*Rodapé*/
+
+footer { 
+    background: rgb(75, 104, 46); 
+height: 150px;
+}
+    
+    .rodape-pai {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        color: #fff;
+        justify-content: space-around;
+    }
+
+    .box {
+        display: flex;
+      align-items: center;
+      padding: 10px;
+    
+        
+        
+    } 
+    .box a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .rodape-img {
+        align-items: center;
+        padding-right: 10px;
+    } 
+    
+    .copy {
+        font-size: 14px;
+        color: #fff;
+        text-align: center;
+        margin: 24px;
+        border-top: 1px solid rgb(27 47 34 / 49%);
+        margin-top: 0px;
+        padding-top: 21px;
+    }
+
+    
+    
